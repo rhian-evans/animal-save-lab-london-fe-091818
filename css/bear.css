@@ -6,7 +6,13 @@ html {
   position: absolute;
   top: 100px;
   right: 0;
+  left:800px;
 }
 
-/* Write your solution here */
+@media (max-width:1196px) {
+  #bear {
+    position:inherit;
+    left:800px;
+  }
+}
 
